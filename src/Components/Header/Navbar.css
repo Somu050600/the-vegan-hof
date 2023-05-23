@@ -1,0 +1,53 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 75px;
+    border-bottom: solid;
+}
+nav{
+    margin: 0 20%;
+    width: 60%;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+}
+.logo img{
+    margin: 0 10px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: rgb(18, 214, 93);
+    font-size: 16PX;
+    font-weight: 500;
+    padding: 5px 10px;
+    margin: 5px 5px;
+    border-radius: 20px;
+    transition: color 0.3s;
+}
+.nav-list a:hover{
+    color: rgb(13, 104, 48);
+
+}
+.search-div-1{
+    border: solid;
+    width: 30px;
+    height: 30px;
+}
+.search-div-1 img{
+    cursor: pointer;
+}
+.search-div-1 input{
+    display: none;
+}
+.search-div-2{
+    width: 300px;
+}
+.search-div-1 input{
+    display: inline;
+    width: 100px;
+}
