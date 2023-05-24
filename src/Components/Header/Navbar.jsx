@@ -7,24 +7,20 @@ function Navbar() {
 
   const [isSearch, setSearch] = useState(false);
 
-  const searchHandler = () => {
-    setSearch(!isSearch)
-  }
-
   return (
     <header>
       <nav>
         <div className='logo'>
-          <img src="" alt="Logo" />
+          <img src={process.env.PUBLIC_URL + './images/Veganhof-logo.png'} alt="VeganHof®" />
         </div>
         <div className='nav-list'>
           <a href="https://github.com/">PRODUCTS</a>
           <a href="https://github.com/">ABOUT US</a>
           <a href="https://github.com/">CONTACT US</a>
         </div>
-        <div className={!isSearch? '.search-div-1' : '.search-div-2'} >
-          <input></input>
-          <img src="" alt="Search" onClick={() => searchHandler}/>
+        <div className={!isSearch? 'search-div-1' : 'search-div-2'} >
+          <input placeholder='Search ...'></input>
+          <img src={process.env.PUBLIC_URL + './images/Search.svg'} alt="Search" onClick={() => setSearch(!isSearch)} width="20px" height="20px"/>
         </div>
       </nav>
     </header>
