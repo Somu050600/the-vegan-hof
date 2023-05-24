@@ -1,24 +1,37 @@
-header{
+#header{
     position: fixed;
     top: 0;
+    left: 0;
     width: 100vw;
     height: 75px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgb(235, 235, 235);
+    transition: height 0.3s ease;
+    z-index: 999;
 }
-nav{
+#header.small{
+    height: 50px;
+}
+#header nav{
     margin: 0 20%;
     width: 60%;
-    height: inherit;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-.logo{
+#header .logo{
     margin-right: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.logo img{
+#header .logo img{
     margin: 0 10px;
-    height: 75px;
+    height: 95%;
+    width: auto;
     aspect-ratio: 1/1;
     object-fit: cover;
 }

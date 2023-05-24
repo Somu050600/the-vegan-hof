@@ -7,11 +7,22 @@ function Navbar() {
 
   const [isSearch, setSearch] = useState(false);
 
+  window.addEventListener('scroll', function() {
+    var header = document.getElementById('header');
+    var scrollPosition = window.scrollY;
+  
+    if (scrollPosition > 0) {
+      header.classList.add('small');
+    } else {
+      header.classList.remove('small');
+    }
+  });
+  
   return (
-    <header>
+    <header id='header'>
       <nav>
         <div className='logo'>
-          <img src={process.env.PUBLIC_URL + './images/Veganhof-logo.png'} alt="VeganHof®" />
+          <img src={process.env.PUBLIC_URL + './images/header/Veganhof-logo.png'} alt="VeganHof®" />
         </div>
         <div className='nav-list'>
           <a href="https://github.com/">PRODUCTS</a>
@@ -20,7 +31,7 @@ function Navbar() {
         </div>
         <div className={!isSearch? 'search-div-1' : 'search-div-2'} >
           <input placeholder='Search ...'></input>
-          <img src={process.env.PUBLIC_URL + './images/Search.svg'} alt="Search" onClick={() => setSearch(!isSearch)} width="20px" height="20px"/>
+          <img src={process.env.PUBLIC_URL + './images/header/Search.svg'} alt="Search" onClick={() => setSearch(!isSearch)} width="20px" height="20px"/>
         </div>
       </nav>
     </header>

@@ -3,9 +3,9 @@ import './LandingPage.css';
 
 function LandingPage() {
   return (
-    <div>
-      
-    </div>
+      <div className="landing-page-container">
+        l sjhdbfvc
+      </div>
   );
 }
 
