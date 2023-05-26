@@ -3,4 +3,13 @@
     padding-top: 75px;
     width: 100vw;
     min-height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+}
+.slider-container{
+    position: relative;
+    min-width: 240vw;
+    height: 70vh;
+    margin: 0 auto;
+    transform: translateX(-70vw);
 }
