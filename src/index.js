@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
+import Contact from './Pages/Contact/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <BrowserRouter basename={'/'}>
       <Routes>
         <Route path="/" element={<App />}></Route>
+        <Route path='contact/' element={<Contact/>}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

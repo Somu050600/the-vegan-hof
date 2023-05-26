@@ -4,7 +4,8 @@
     width: 100vw;
     min-height: 100vh;
     display: flex;
-    overflow-x: hidden;
+    flex-direction: column;
+    /* overflow-x: hidden; */
 }
 .slider-container{
     position: relative;
@@ -12,4 +13,9 @@
     height: 70vh;
     margin: 0 auto;
     transform: translateX(-70vw);
+}
+.landing-page-content-container{
+    position: relative;
+    min-height: 100vh;
+    color: black;
 }

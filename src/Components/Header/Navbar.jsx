@@ -32,7 +32,7 @@ function Navbar() {
         <div className='nav-list'>
           <a href="https://github.com/">PRODUCTS</a>
           <a href="https://github.com/">ABOUT US</a>
-          <a href="https://github.com/">CONTACT US</a>
+          <a href="/contact">CONTACT US</a>
         </div>
         <div className={!isSearch ? 'search-div-1' : 'search-div-2'} >
           <input placeholder='Search ...'></input>

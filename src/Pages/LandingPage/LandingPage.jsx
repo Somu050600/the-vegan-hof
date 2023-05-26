@@ -18,6 +18,9 @@ function LandingPage() {
         <div className="slider-container">
           <ImageSlider slides={slides} />
         </div>
+        <div className="landing-page-content-container">
+          
+        </div>
       </div>
   );
 }

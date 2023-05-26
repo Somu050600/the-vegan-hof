@@ -4,20 +4,30 @@ import './ImageSlider.css'
 
 const ImageSlider = ({ slides }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [transitionClass, setTransitionClass] = useState("");
+
     const goToPrevious = () => {
-        const isFirstSlide = currentIndex === 0;
-        const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-        setCurrentIndex(newIndex);
+        setTransitionClass("translate-right");
+        setTimeout(() => {
+            const newIndex = (currentIndex - 1 + slides.length) % slides.length;
+            setCurrentIndex(newIndex);
+            setTransitionClass("");
+        }, 500);
     };
     const goToNext = () => {
-        const isLastSlide = currentIndex === slides.length - 1;
-        const newIndex = isLastSlide ? 0 : currentIndex + 1;
-        setCurrentIndex(newIndex);
+        setTransitionClass("translate-left");
+        setTimeout(() => {
+            const newIndex = (currentIndex + 1) % slides.length;
+            setCurrentIndex(newIndex);
+            setTransitionClass("");
+        }, 500);
     };
-    const goToSlide = (slideIndex) => {
-        setCurrentIndex(slideIndex);
-        setActiveIndex(slideIndex);
+    const getPreviousIndex = () => {
+        return (currentIndex - 1 + slides.length) % slides.length;
+    };
+
+    const getNextIndex = () => {
+        return (currentIndex + 1) % slides.length;
     };
 
     return (
@@ -30,18 +40,18 @@ const ImageSlider = ({ slides }) => {
                     ❱
                 </div>
             </div>
-            <div className="slider-images">
-                <img src={process.env.PUBLIC_URL + slides[currentIndex+1].url} alt="" />
+            <div className={`slider-images ${transitionClass}`}>
+                <img src={process.env.PUBLIC_URL + slides[getPreviousIndex()].url} alt="" />
                 <img src={process.env.PUBLIC_URL + slides[currentIndex].url} alt="" />
-                <img src={process.env.PUBLIC_URL + slides[currentIndex+2].url} alt="" />
+                <img src={process.env.PUBLIC_URL + slides[getNextIndex()].url} alt="" />
             </div>
             <div className="dots-container">
                 {slides.map((slide, slideIndex) => (
                     <div
                         id={`dot-${slideIndex}`}
-                        className={`dot-style ${activeIndex === slideIndex ? 'active' : ''}`}
+                        className={`dot-style ${currentIndex === slideIndex ? 'active' : ''}`}
                         key={slideIndex}
-                        onClick={() => goToSlide(slideIndex)}
+                        onClick={() => setCurrentIndex(slideIndex)}
                     >
                         —
                     </div>

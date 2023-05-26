@@ -1,7 +1,9 @@
-.slider-style{
-  position: relative;
-  height: 100%;
+.slider-style {
+    position: relative;
+    height: 100%;
+    border-bottom: 1px solid rgb(224, 222, 222);
 }
+
 .rightArrow {
     position: absolute;
     top: 50%;
@@ -9,70 +11,92 @@
     right: 34%;
     font-size: 45px;
     color: #fff;
-    z-index:3;
+    z-index: 3;
     cursor: pointer;
-    /* border: solid; */
     height: 100%;
     display: flex;
     align-items: center;
     transition: 0.5s;
 }
-.rightArrow:hover{
-    color: #d3d0d0;
+
+.rightArrow:hover {
+    color: #b3b1b1;
 }
+
 .leftArrow {
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    left: 34%;
+    left: 33.3%;
     font-size: 45px;
     color: #fff;
-    z-index:3;
+    z-index: 3;
     cursor: pointer;
-    /* border: solid; */
     height: 100%;
     display: flex;
     align-items: center;
     transition: 0.5s;
 }
-.slider-images{
+
+.leftArrow:hover {
+    color: #b3b1b1;
+}
+
+.slider-images {
     position: relative;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    overflow-x: auto;
+    overflow-x: hidden;
+    transition: transform 0.5s ease-in-out;
 }
-.slider-images img{
+
+.slider-images.translate-left {
+    transform: translateX(-33%);
+}
+
+.slider-images.translate-right{
+    transform: translateX(33%);
+}
+
+.slider-images img {
     width: 33%;
     height: 80%;
-    border-radius: 10px;
+    border-radius: 3px;
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    transition: 0.5s ease-in-out;
 }
-.slider-images img:nth-child(2){
+
+.slider-images img:nth-child(2) {
     height: 92%;
     z-index: 1;
     margin: 0 5px;
-    box-shadow: 10px 0px 30px rgba(122, 120, 120, 0.438), -10px 0px 30px rgba(99, 98, 98, 0.438), 0px -0px 30px rgba(122, 120, 120, 0.438);
+    box-shadow: 10px 0px 30px rgba(205, 238, 221, 0.438),
+        -10px 0px 30px rgba(205, 238, 221, 0.438),
+        0px -0px 30px rgba(111, 182, 144, 0.438);
 }
-.dots-container{
+
+.dots-container {
     position: absolute;
-    bottom: -10;
+    bottom: -15px;
     left: 0;
     right: 0;
     display: flex;
     justify-content: center;
 }
-.dot-style{
+
+.dot-style {
     margin: 0 3px;
     cursor: pointer;
     font-size: 35px;
     color: #8f8d8d;
 }
-.dot-style.active{
+
+.dot-style.active {
     color: #1b1b1b;
 }
