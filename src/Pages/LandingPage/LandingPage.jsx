@@ -1,5 +1,5 @@
 import './LandingPage.css';
-import ImageSlider from "./ImageSlider";
+import ImageSlider from "./ImageSlider"
 
 
 function LandingPage() {
@@ -11,12 +11,13 @@ function LandingPage() {
     { url: "./images/LandingPage/slider/slide4.png", title: "slide4" },
     { url: "./images/LandingPage/slider/slide5.png", title: "slide5" },
     { url: "./images/LandingPage/slider/slide6.png", title: "slide6" },
+    { url: "./images/LandingPage/slider/slide6.png", title: "slide6" },
   ];
   
   return (
-      <div className="landing-page-container">
+      <div className="landing-page-container" id='Home'>
         <div className="slider-container">
-          <ImageSlider slides={slides} />
+          <ImageSlider slides={slides}/>
         </div>
         <div className="landing-page-content-container">
           

@@ -1,11 +1,8 @@
 import './Contact.css';
-import Navbar from '../../Components/Header/Navbar';
-import Footer from '../../Components/Footer/Footer';
 
 function Contact() {
   return (
-    <div className='contact-container'>
-      <Navbar />
+    <div className='contact-container' id="ContactUs">
       <div className='form-container'>
         <div className='form-left-container'>
           <form action="">
@@ -48,7 +45,6 @@ function Contact() {
           <img src={process.env.PUBLIC_URL + './images/footer/instagram.svg'} width="20px" height="20px"/>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
