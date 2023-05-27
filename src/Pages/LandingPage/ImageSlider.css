@@ -21,9 +21,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 10px 0px 30px rgba(133, 134, 133, 0.438),
-    -10px 0px 30px rgba(133, 134, 133, 0.438),
-    0px -0px 30px rgba(133, 134, 133, 0.438);
+  box-shadow: 10px 0px 10px rgba(133, 134, 133, 0.438),
+    -10px 0px 10px rgba(133, 134, 133, 0.438),
+    0px -10px 10px rgba(133, 134, 133, 0.438), 0px 10px 10px rgba(133, 134, 133, 0.438);
 }
 
 .slider-section ul li p {
@@ -49,6 +49,9 @@
 .slider-section .main-pos {
   margin-left: 5% !important;
   z-index: 3;
+  box-shadow: 10px 0px 30px rgba(133, 134, 133, 0.438),
+    -10px 0px 30px rgba(133, 134, 133, 0.438),
+    0px -10px 30px rgba(133, 134, 133, 0.438), 0px 10px 10px rgba(133, 134, 133, 0.438);
 }
 
 .slider-section .left-pos {

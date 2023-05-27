@@ -14,8 +14,10 @@ function Navbar() {
 
     if (scrollPosition > 0) {
       header.classList.add('small');
+      header.classList.add('change-color');
     } else {
       header.classList.remove('small');
+      header.classList.remove('change-color');
     }
   });
 
@@ -32,7 +34,7 @@ function Navbar() {
           <img src={process.env.PUBLIC_URL + './images/header/Veganhof-logo.png'} alt="VeganHof®" />
         </div>
         <div className='nav-list'>
-          <a href="https://github.com/">PRODUCTS</a>
+          <a href="/">PRODUCTS</a>
           <a href="#AboutUs">ABOUT US</a>
           <a href="#ContactUs">CONTACT US</a>
         </div>
