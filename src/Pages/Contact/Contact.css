@@ -8,7 +8,7 @@
 }
 .form-container{
     position: relative;
-    width: 60vw;
+    width: 70vw;
     height: 60vh;
     /* border: solid; */
     display: flex;
@@ -20,7 +20,7 @@
 }
 .form-container::before{
     content: "≡";
-    font-size: 35px;
+    font-size: 32px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +67,7 @@
 .fle{
     margin: 15px 0;
     width: 100%;
-    height: 60px;
+    height: 48px;
     /* border: solid; */
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
     opacity: 0.75; /* Firefox */
   }
 .form-left-container h1{
-    font-size: 50px;
+    font-size: 48px;
     letter-spacing: 0.2rem;
 }
 .form-left-container button{
@@ -100,7 +100,7 @@
     border-radius: 2px;
     background-color: black;
     color: white;
-    font-size: large;
+    font-size: 24px;
     font-weight: bold;
     letter-spacing: 0.3rem;
     display: flex;
@@ -131,10 +131,10 @@
     transform: translate(-15px, -15px);
 }
 .form-right-container .fre{
-    margin: 15px 0;
+    margin: 12px 0;
     width: 100%;
-    height: 60px;
-    font-size: 20px;
+    height: 48px;
+    font-size: 16px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -160,4 +160,28 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;    
+}
+@media only screen and (max-width: 600px) {
+    .form-container{
+        width: 90vw;
+        height: 90vh;
+        flex-direction: column;
+    }
+    .form-left-container{
+        width: 90%;
+        height: 40%;
+    }
+    .form-left-container::before{
+        display: none;
+    }
+    .form-right-container{
+        width: 90%;
+        height: 40%;    
+    }
+    .form-container::before{
+        display: none;
+    }
+    .form-container::after{
+        display: none;
+    }
 }

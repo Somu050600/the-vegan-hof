@@ -1,4 +1,4 @@
-.about-container{
+.about-container {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -6,7 +6,8 @@
     align-items: center;
     justify-content: center;
 }
-.about-container .left{
+
+.about-container .left {
     width: 50%;
     height: 100%;
     padding: 5%;
@@ -16,22 +17,26 @@
     justify-content: center;
     /* border: solid; */
 }
-.about-container .left h1{
+
+.about-container .left h1 {
     font-size: 70px;
     display: inline;
     margin-right: 10%;
     /* border: solid; */
 }
-.about-container .left h1:nth-child(2){
+
+.about-container .left h1:nth-child(2) {
     color: #12D65D;
 }
-.about-container .left .about-span{
+
+.about-container .left .about-span {
     width: 90%;
     margin: 40px 0;
     font-size: 20px;
     /* border: solid; */
 }
-.about-container .left a:nth-child(1){
+
+.about-container .left a:nth-child(1) {
     padding: 10px 20px;
     margin-right: 20px;
     font-size: 20px;
@@ -41,16 +46,21 @@
     border-radius: 3px;
     box-shadow: 0px 3px 10px rgb(170, 170, 170);
 }
-.about-container .left a:nth-child(2){
+
+.about-container .left a:nth-child(2) {
     font-size: 20px;
     font-weight: 600;
     color: #12D65D;
 }
-a, a:visited, a:active{
+
+a,
+a:visited,
+a:active {
     text-decoration: none;
+    display: inline-block;
 }
 
-.about-container .right{
+.about-container .right {
     width: 50%;
     height: 100%;
     padding: 5%;
@@ -60,8 +70,24 @@ a, a:visited, a:active{
     justify-content: center;
     /* border: solid; */
 }
-.about-container .right img{
+
+.about-container .right img {
     width: 150%;
     height: 150%;
     transform: translate(-20%, -15%);
+}
+
+@media only screen and (max-width: 600px) {
+    .about-container {
+        flex-direction: column-reverse;
+    }
+
+    .about-container .left {
+        width: 90%;
+        height: 50%;
+    }
+    .about-container .right{
+        width: 70%;
+        height: 50%;
+    }
 }

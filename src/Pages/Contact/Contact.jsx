@@ -23,19 +23,19 @@ function Contact() {
         <div className='form-right-container'>
           <div className='fre'><h1>Info</h1></div>
           <div className='fre'>
-            <img src={process.env.PUBLIC_URL + './images/Contact/email.svg'} alt="" width="30px" height="30px" />
+            <img src={process.env.PUBLIC_URL + './images/Contact/email.svg'} alt="" width="25px" height="25px" />
             <span>kontakt@proteinbot.de </span>
           </div>
           <div className='fre'>
-            <img src={process.env.PUBLIC_URL + './images/Contact/phone.svg'} alt="" width="30px" height="30px" />
+            <img src={process.env.PUBLIC_URL + './images/Contact/phone.svg'} alt="" width="25px" height="25px" />
             <span>+49 (0)69 959 325 048</span>
           </div>
           <div className='fre'>
-            <img src={process.env.PUBLIC_URL + './images/Contact/office.svg'} alt="" width="30px" height="30px" />
+            <img src={process.env.PUBLIC_URL + './images/Contact/office.svg'} alt="" width="25px" height="25px" />
             <span>Kurt-Blaum-Platz 8, 63450 Hanau, Germany</span>
           </div>
           <div className='fre'>
-            <img src={process.env.PUBLIC_URL + './images/Contact/clock.svg'} alt="" width="30px" height="30px" />
+            <img src={process.env.PUBLIC_URL + './images/Contact/clock.svg'} alt="" width="25px" height="25px" />
             <span>09:00 - 18:00</span>
           </div>
         </div>
