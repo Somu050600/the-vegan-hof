@@ -15,7 +15,7 @@ function About() {
           </span>
         </div>
         <div>
-          <a href='#ContactUs'>LEARN MORE</a>
+          <a href='/AboutUs'>LEARN MORE</a>
           <a href='#ContactUs'>Contact Us</a>
         </div>
       </div>

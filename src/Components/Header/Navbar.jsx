@@ -22,9 +22,11 @@ function Navbar() {
   });
 
   const homeHanler = () => {
-    var id = document.getElementById('Home')
-    id.scrollIntoView({ behavior: 'smooth' });
-    navigate("/")
+    navigate("/");
+    setTimeout(() =>{
+      var id = document.getElementById('Home')
+      id.scrollIntoView({ behavior: 'smooth' });
+    });
   }
 
   return (
@@ -35,8 +37,8 @@ function Navbar() {
         </div>
         <div className='nav-list'>
           <a href="/">PRODUCTS</a>
-          <a href="#AboutUs">ABOUT US</a>
-          <a href="#ContactUs">CONTACT US</a>
+          <a href="/#AboutUs">ABOUT US</a>
+          <a href="/#ContactUs">CONTACT US</a>
         </div>
         <div className={!isSearch ? 'search-div-1' : 'search-div-2'} >
           <input type='search' placeholder='Search ...'></input>
