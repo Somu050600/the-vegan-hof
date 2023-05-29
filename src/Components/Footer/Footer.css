@@ -49,3 +49,9 @@ footer{
 .footer-img-div a img:hover{
     filter: invert(37%) sepia(6%) saturate(785%) hue-rotate(84deg) brightness(90%) contrast(82%);
 }
+@media screen and (max-width: 600px){
+    .footer-div{
+    width: 90%;
+    flex-direction: column;
+    }
+}

@@ -39,7 +39,7 @@ function Contact() {
             <span>09:00 - 18:00</span>
           </div>
         </div>
-        <div className='forn-media-icons'>
+        <div className='form-media-icons'>
           <img src={process.env.PUBLIC_URL + './images/footer/facebook.svg'} width="20px" height="20px"/>
           <img src={process.env.PUBLIC_URL + './images/footer/twitter.svg'} width="20px" height="20px"/>
           <img src={process.env.PUBLIC_URL + './images/footer/instagram.svg'} width="20px" height="20px"/>
