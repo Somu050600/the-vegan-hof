@@ -137,3 +137,10 @@
 .slider-section .dot-style.active {
   color: #1b1b1b;
 }
+
+@media only screen and (max-width: 600px) {
+  .slider-section {
+    height: 40vh;
+    margin: 0 auto;
+  }
+}
