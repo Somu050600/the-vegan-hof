@@ -4,32 +4,32 @@ import ImageSlider from "./ImageSlider";
 function LandingPage() {
   const slides = [
     {
-      url: "https://www.dropbox.com/sh/rchb78p3fldxtca/AADGeiuQpDoIymyYWSIU_cMAa/fullscreen-creatives?dl=0&preview=fruit+smoothie.jpg&subfolder_nav_tracking=1",
+      url: "https://github.com/Somu050600/the-vegan-hof/assets/119160374/f95a2829-a199-4fae-b308-ba6d167c131c",
       title: "slide1",
     },
     {
-      url: "https://uc521648ad07fded4a5f69314198.previews.dropboxusercontent.com/p/thumb/AB8xsyvy4BcCiXbhW6_Qop1rONrYURtO9Bb2y79S-DcLONVLbSqjyJbctTaDpka7xADXxu-UqctSK34Hqui-RzJXvPU8cbEE22n8ev3RdssRCGA_sGUHKu0Q8yaR6iJCtcIeraZM2_LFVsi1S4unNBceX351sZPJiW5kEgJPUKiDQB4SQUW5nu9yp9mYIG8R0eEVsqCqUkmSKMCM0V2VX4OOhzmW2fc91vF6qZtp4tUjR9OKK85yX5ThtfdUOZl1Xl07O953Y4-XwGCCsooOrzbCIK1JG5euDUciwSAFnRB3JG5jBrPiTj6M3n0dkdZs8hnZdIpo9oRblv-0T-0py_vBwMjNZw07w7z4kffNx8lTM4QkCBPcUW8yg01YfDBRwoxMXVEh8qD0tcC_IxRre0TPIxLvO3d5movCkEikX3e-dAFDDjqtzsUJAn_oGhVBt_RwN-1HG0Gx3IPakcsGYDtE/p.png",
+      url: "https://github.com/Somu050600/the-vegan-hof/assets/119160374/ba22f2e2-e9b5-4222-a86a-cdd5c01c28fc",
       title: "slide2",
     },
     {
-      url: "https://uc1bc44d2be37b2946c4a7d49829.previews.dropboxusercontent.com/p/thumb/AB936KlUvNl0gJiX1XzTnrN9Lcc_p70K4wKKbEKpav9Lh6SaJCFFY7uqYocmmYpH2X7_3vSsZW9dDiS2svZ4oP4NIvXmPenPFxofpO4i5jjdcRV_aiFkKOaJ3B5HoAsJWODJZCSHhjyqA0dTqahZXYQzgKXcx36EkCESjKMOVGEtgL6r_EJ3koH2ExIiUhTtEXL1v1TqGUE5UeKmOL6C9MRytTxjlMrWxFE9HH40ESiH-5GFesZuuiAWKqRdbZ_3spXRICEtKr033XYO8S2GjPKcEO8R2xd_CW8Ji1XlQeEFLJSwSIIldYEbfDKVjk5Qi5hgKUJgWqmdkx3OAFLFXqNlsxsuRg1uOwcQwbEHAmPlsobKorANiwJggaCRuNPAojjtwuZNtpMonrNWiflE6jfXlmkg_xROp3kHBqHdiNeZ4NIgDBHhLKpS3ELVYJt1rqRRJw0lYjY-pqWKYK15foZf/p.png",
+      url: "https://github.com/Somu050600/the-vegan-hof/assets/119160374/0f54b127-5f89-41f0-a72f-37513c04f8f5",
       title: "slide3",
     },
     {
-      url: "https://uc8ec2143b6734c5630f51412c7d.previews.dropboxusercontent.com/p/thumb/AB_53RGd11_CjRGSUHJJEMPuO-Hq_WW_sNcRF3vx3vGmocUh6n1ktM0Lq27P2HN5k_of9GcLCfJLrMCWzV3J188KrfIDNOClmIMD4rIqBM810lxOKZwyFdrf1-LCuFDWtQxNcGynflxcs78cFx30MoRevGqaVeTpjisSJcaSRo0RYrwpEzgs6Fm2B-d-ZHYBLxHV_E3FvG7UNZBOrvMrm1qfEZE7rfhoDHixCHd2z9obWTrI6HL5FjyqsBze7Y0O01x6qaJzhOgVwodlBhtrHWJveOel-GtwDG2xb7zWeukr-qt1uMrtjodO37ManVyFxpZjTP5A_SQMNJNTBOVSbHslPWRAfS8oCYAC5JuzMuyQWqFHBGVGXWGmY-CbvEOoO-CmFbCQuZkU5vuDq8fqxMkwsonoYJdNbmlz0oGwH73LJ4JCubhin_9tvS3OuvzYn3SPBPwUV351SiLF-5-psMee/p.png",
+      url: "https://github.com/Somu050600/the-vegan-hof/assets/119160374/de9bd348-3917-4a90-9200-3fb967ee25eb",
       title: "slide4",
     },
     {
-      url: "https://uc40233326301063d49de9ed56b7.previews.dropboxusercontent.com/p/thumb/AB80jKal_pZY2_AS8jQrGSJzV2BvIflR2GN6r4VyD86reUVfdrXOgcXTH7oLr1dn9IzSlPguapRyaaqeizXyd6Wapp3GqRsb62c6v3raGvfpgLtheYPjjRfpgclr2FHJhu__hR6h0XwSPai6Az7MBFHe3_817J0ElCzeeLLT50PMj5IZVoP6kSMsvhMpsWchvkbZrgn5snD9_umTb3xnh_zqaLRRO0kIMbTM17Bv3Ze7eJqWDZfNdmrLfhwIAEIngTrO_oUnpxoPTETkkx1b4Nnv_wiW8aappzVlJRheImyNzM9Na5LZdss5v4qdYsNrykFuK9MF76vg2IDSw7wN_oEz/p.png",
+      url: "https://github.com/Somu050600/the-vegan-hof/assets/119160374/d08e31db-ede9-43de-89b4-bf39f2b4f6c2",
       title: "slide5",
     },
     {
-      url: "https://ucbae6901ba88fea50ceda712e41.previews.dropboxusercontent.com/p/thumb/AB9W1G0wVsOTQZzBovq99IxJ5T5SNr4MQcmGML4wOdAYzjpvAPLqzToOiX-9lMJwR0z0jC1hGbnIY0P5YaULD_vrGGZENQwK3q05AF9BcOqtlMmMDqI-VGIwhMykBpB8TUoGOYpJDwJXoZx8TuxoXmrQKDdc4Ki_zH_W6nKyus7u06zJomIEfXgx2aiXoIKscYfGCsvm1lh3qxI32ctSZebi8kU8kM17IyTw5mmJJHBjnP97fn7AAb8iBaJXcnLgYOzUYAgJd93pkcQfBkxBlqfr_lqd-oPwCefd2uyIUnR5uhcG8cmPPTDxKBdvlsg49rhRyNfaAMMWT0-JmmLWDBy7vNp_OiF6caywZ3v31lLyje3PELzUw4VQHaLqmgGomL8hMbyZoqnsrSQzWbWoy8owR_fCLuQ60h94oagmirJqoIE2Z_ryNVvx1m153TUbcsVaUNjXsslL12nM7D86FE7h/p.png",
+      url: "https://github.com/Somu050600/the-vegan-hof/assets/119160374/691aad7b-b353-4c1c-ae3e-4b92eb76c394",
       title: "slide6",
     },
     {
-      url: "https://uc86d3f1033df1299b65be4b1375.previews.dropboxusercontent.com/p/thumb/AB_V71xUu01qbCIoJZR4UohbanISLNAmsiuwOcBM3SXRX7HGNrBGUVULz-jXwy9EoIXLgC3PpOG1l_PG5GEOE0wSuCVNwAIeAYZjtOqSxOyrB_Pts7B7obPsWWSQ1OHx5ULkhIWdSVGt8a3M8YR30UNW38NlsgWVaQbd63lASyRiisjpFTauphjsqVGea0qiBKqidVkVBuXdaXxJ1ide0asVhVt0uWPmTKVJURbvdZnArlzcSFJHNPLAko2BjIHC6lMvqDW0rI0Po493B9A8q9jKGwolPPflid3ekGZhcEgl9FLpjZpITsL-d32s8XO7Qtlnu8JHc0yUxbYqhjke3ebl/p.png",
-      title: "slide6",
+      url: "https://github.com/Somu050600/the-vegan-hof/assets/119160374/7dc3097c-06eb-431a-a8be-1ad72a84908f",
+      title: "slide7",
     },
   ];
 
