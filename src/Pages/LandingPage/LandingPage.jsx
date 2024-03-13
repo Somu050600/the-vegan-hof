@@ -4,7 +4,7 @@ import ImageSlider from "./ImageSlider";
 function LandingPage() {
   const slides = [
     {
-      url: "https://uca321e16fb6b1f687a1bc093f5f.previews.dropboxusercontent.com/p/thumb/AB_CqqFsomoZk2aAZc5OlUUFORdGQ0tP52RK5yzJkYuFtI0EXInoAVj2Nzhemk1ujiyv_df-X8LCV2Qc0jKv0mM8cT2JIzj99LTQcjLfKl22qmaVCe0CT1NeTTrpyE1y7D1_5TjHXVRPpNJUQvQ_TDZ4atm5u06h0LyKDsBu5E1M0dZNcgj4JOGnONVTYCEMG-Rwn6_a-YNv8iDsC-pH2SnbgSDTAjbiQQDHZsRW4nre-Q2oWU1t4ZH1xtQvOTWeMhDEGg8KiQxQ0fFcjJQafim2GApJQ61NzyYcW2bOp4SFBYlIZT73dYXrnEasnWR2ikQLmZEmqpxJm3BmBfJkC0R4z2yHdowrWr_xWN_k5Ds1s_z7xgty6WeJ1IWHRhd-yMX3_A8FV00rYiXXeecY7Gs7zlbpgHVODRBK6UUuJrJIFw_beQ6caDINHyv7HGEEF0I9veocIJEJ1zKi3dQFPJxs/p.png",
+      url: "https://www.dropbox.com/sh/rchb78p3fldxtca/AADGeiuQpDoIymyYWSIU_cMAa/fullscreen-creatives?dl=0&preview=fruit+smoothie.jpg&subfolder_nav_tracking=1",
       title: "slide1",
     },
     {
